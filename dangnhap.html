@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sanpham.css">
+    <link href="css/ASM.css" rel="stylesheet" />
+    <link href="css/trangcon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/danhmucsanpham.css">
+</head>
+<style>
+    #wrapper {
+        width: 1000px;
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    #content {
+        margin-top: 50px;
+        width: 800px;
+        height: 400px;
+        float: left;
+        background-color: rgb(228, 224, 224);
+        margin-left: 360px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-radius: 20px;
+    }
+
+    .dangnhap p {
+        text-align: center;
+        font-size: 30pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-top: 100px;
+    }
+
+    p::after {
+        content: "";
+        position: absolute;
+        width: 500px;
+        height: 5px;
+        background-color: black;
+        top: 110px;
+        left: 34%;
+        margin-top: 50px;
+        
+    }
+
+    label {
+        text-align: left;
+    }
+
+    .control {
+        margin: 5px;
+        text-align: left;
+        width: 500px;
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    .dienform label {
+        text-align: left;
+    }
+
+    .dienform2 button {
+        top: 100px;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="menu-logo">
+            <div class="logo">
+                <img src="img/logo.png" width="50px">
+            </div>
+            <nav class="danhsach">
+                <ul class="main-menu">
+                <li><a href="ASM hoan chinh.html"> Trang chủ </a></li>
+                <li><a href="#"> Giới thiệu </a></li>
+                <li><a href="sanpham.html"> Sản phẩm</a>
+                    <ul class="trangcon">
+                        <li><a href="sanpham.html">Dép</a></li>
+                        <li><a href="sanpham.html">Giày</a></li>
+                        <li><a href="sanpham.html">Phụ kiện</a></li>
+                    </ul>    
+                
+            </li>
+                <li><a href="#"> Liên hệ </a></li>
+                <li><a href="#"> Tin tức </a></li>
+                <li><a href="#"> TEREX </a></li>
+                <li><a href="dangnhap.html"> Tìm kiếm đơn hàng </a></li>               
+             </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="dangnhap">
+        <p>BẠN CẦN ĐĂNG NHẬP ĐỂ TÌM KIẾM ĐƠN HÀNG</p>
+    </div>
+    <div id="wrapper">
+        <div id="content">
+            <div class="dienfrom" align="center">
+                <label>Tài khoản</label><br>
+                <input class="control" type="text" placeholder="Tài Khoản"><br>
+                <label>Mật Khẩu</label><br>
+                <input class="control" type="password" placeholder="Mật Khẩu"><br>
+
+                <hr color="black" width="700px">
+                <div class="dienform2">
+                    <a href="dangky.html">
+                        <button type="submit">Đăng Ký</button>
+                    </a>
+                    <button type="submit">Đăng Nhập</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="lienhe footer-item">
+            <h3>LIÊN HỆ</h3>
+            <p><i class='bx bxl-gmail' style='color:#ffffff'  ></i>  EMAIL: tramtabo@gmail.com</p>
+            <p><i class='bx bxs-phone'></i>  HOTLINE : 089 939 7788</p>
+                
+            <p> <i class='bx bx-home'></i> Chi nhánh 1:</p>
+                250/4 Hai Bà Trưng, phường Tân Định, Quận 1, TP Hồ Chí Minh<br></p>
+                
+            <p> <i class='bx bxs-phone'></i>  Điện thoại: 089 839 7788</p>
+                
+            <p> <i class='bx bx-home'></i>  Chi nhánh 2:</p>
+                387/12 CMT8, Phường 13, Quận 10, TP Hồ Chí Minh</p>
+                
+            <p> <i class='bx bxs-phone'></i>  Điện thoại: 078 688 7809</p>
+            
+        </div>
+        <div class="product footer-item">
+            <div class="product3">
+            <h3>PRODUCT</h3>
+            <a href="#">TRANG CHỦ</a>
+            <a href="#">GIỚI THIỆU</a>
+            <a href="#">SẢN PHẨM</a>
+            <a href="#">LIÊN HỆ</a>
+            <a href="#">TIN TỨC</a>
+            <a href="#">TEREX</a>
+            <a href="#">TÌM KIẾM ĐƠN HÀNG</a>
+        </div>
+        </div>
+        <div class="img">
+            <img src="img/Screenshot 2022-02-12 111657.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>

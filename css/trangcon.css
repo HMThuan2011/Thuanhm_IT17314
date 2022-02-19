@@ -1,0 +1,43 @@
+/* Trang con*/
+.danhsach .main-menu{
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+.main-menu li{
+    position: relative;
+}
+.trangcon{
+    list-style: none;
+    position: absolute;
+    background-color: rgb(71, 71, 71);
+    width: 200px;
+    display: none;
+}
+.main-menu li:hover ul.trangcon{
+    display: block;
+}
+.main-menu li .trangcon a{
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    
+}
+
+.main-menu li .trangcon a:hover{
+    background-color: rgb(59, 59, 59);
+}
+.trangcon ul:last-child a{
+    border: none;
+}
+
+footer img:hover{
+    transition: none;
+    transform: none;
+}
+footer img{
+    width: 500px;
+}
+footer{
+    background-color: #484848;
+}
+
